@@ -39,7 +39,7 @@ dependencies {
     testRuntime "org.junit.jupiter:junit-jupiter-engine:$junit_version"
 }
 
-mainClassName = "com.example.demo.app.MyApp"
+mainClassName = "com.larson.whatshouldwedo.app.WhatShouldWeDo"
 
 jar {
     manifest {

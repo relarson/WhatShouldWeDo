@@ -1,4 +1,4 @@
-package com.example.demo.model
+package com.larson.whatshouldwedo.model
 
 class Seasons(
   private val spring: Boolean = false,

@@ -1,10 +1,10 @@
-package com.example.demo.app
+package com.larson.whatshouldwedo.app
 
-import com.example.demo.view.MainView
+import com.larson.whatshouldwedo.view.MainView
 import javafx.stage.Stage
 import tornadofx.*
 
-class MyApp: App(MainView::class, Styles::class) {
+class WhatShouldWeDo: App(MainView::class, Styles::class) {
   override fun start(stage: Stage) {
     with(stage) {
       minWidth = 900.0

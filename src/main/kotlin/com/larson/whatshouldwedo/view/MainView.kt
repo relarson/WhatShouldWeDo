@@ -1,9 +1,9 @@
-package com.example.demo.view
+package com.larson.whatshouldwedo.view
 
-import com.example.demo.model.Activity
-import com.example.demo.model.Season
-import com.example.demo.model.Seasons
-import com.example.demo.model.TripLength
+import com.larson.whatshouldwedo.model.Activity
+import com.larson.whatshouldwedo.model.Season
+import com.larson.whatshouldwedo.model.Seasons
+import com.larson.whatshouldwedo.model.TripLength
 import javafx.beans.property.SimpleStringProperty
 import javafx.scene.control.ToggleGroup
 import tornadofx.*
@@ -201,7 +201,7 @@ class MainView : View("What Should We Do v0.1") {
     init {
         tableData.predicate = {
             LOG.info(seasonFilter.toString())
-            var shouldShow = true
+            var shouldShow : Boolean
             if (it.deleted) {
                 shouldShow = false
             } else {
